@@ -9,7 +9,7 @@ export function MainPage() {
     const {handleTrackSelect, selectedTrackId} = useTrackSelection()
 
     return <div>
-        <PageTitle value={'Musicfun Player'} />
+        <PageTitle value={'🎧 Musicfun Player'} />
         <Playlist
             selectedTrackId={selectedTrackId}
             onTrackSelect={handleTrackSelect}/>
