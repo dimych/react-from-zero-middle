@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import type {TrackDetailsResource} from "../types.ts";
+import type {TrackDetailsResource} from "../dal/types.ts";
 import {getTrack} from "../dal/api.ts";
 
 export function useTrack(selectedTrackId: string | null) {

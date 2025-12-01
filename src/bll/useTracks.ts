@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import type {Track} from "../types.ts";
+import type {Track} from "../dal/types.ts";
 import {getTracks} from "../dal/api.ts";
 
 export function useTracks() {
